@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*  */
+
+h3{
+	font-size: 3vmin;
+}
+
+header{
+	margin-top: 10px;
+	margin-left: 2%;
+}
+
+header img{
+	padding-top: 0.2vh;
+	vertical-align: text-bottom;
+	height: 5vh;
+}
+
+nav{
+	display: inline-block;
+	font-size: 3vmin;
+	margin: 3vh 5vw 4vh 1vw;
+}
+
+nav a{
+	color:  #7e7373a4;
+	text-decoration: none;
+	margin: 2vh 3.5vw;
+}
+
+nav a:visited{
+	color: #7e7373a4;
+}
+
+.hero{
+	/* padding: 125px 300px; */
+	display: block;
+	padding: 10vmin;
+	padding-left: 18vmin;
+	margin: 5vh 3.5vw
+}
+
+.hero h1{
+	display: inline-block;
+	font-size: 14vmin;
+	text-align: center;
+}
+
+.hero button{
+	font-size: 4vmin;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: -26vw;
+	margin-right: 15vw;
+	background: white;
+	height: 8vh;
+	width: 18vw;
+	border-style: solid;
+	border-color: black;
+}
+
+.hero img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -22%;
+	height: 60vmin;
+	width: 60vmin;
+}
+
+
+.hero img{
+	display: inline-block;
+}
+
+.info-section:before{
+	display: block;
+	content:"";
+	margin: 0vh 10vw;
+	border-top: 3px black solid;
+	padding-top: 5vh;
+	font-size: 3vmin;
+}
+
+.inline-section{
+	display: inline-block;
+	width: 35vw;
+	height: 5vh;
+}
+
+.inline-section p{
+	display: inline-block;
+	font-size: 2vmin;
+	line-height: 1.25em;
+}
+
+.middle-img{
+	width: 100vw;
+	padding: 2vh 10vw;
+	text-align: center;
+}
+
+.inline-left{
+	margin-left: 10vw;
+}
+
+.first-row{
+	width: 40vw;
+}
+
+.second-row{
+	width: 25vw;
+}
+
+footer{
+	display: block;
+	margin: 5vh 10vw 0vh;
+	border-top: 3px black solid;
+	padding-top: 5vh;
+	font-size: 3vmin;
+}
+
+address{
+	display: block;
+	padding-top: 1em;
+}
+
+.communications{
+	margin-top: 1em;
+	line-height: 2em;
+}
+
+.copyright{
+	text-align: center;
+}
