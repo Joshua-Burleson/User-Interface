@@ -13,6 +13,10 @@ header img{
     margin-right: 0;
 }
 
+/* .logo-holder{
+    background-image: url("../img/logo.png");
+} */
+
 nav a{
     color: black;
     font-family: 'Exo 2', sans-serif;
@@ -20,6 +24,10 @@ nav a{
 
 nav a:visited{
     color: black;
+}
+
+nav a:hover{
+    color: white;
 }
 
 .hero{
@@ -54,4 +62,24 @@ nav a:visited{
     height: 30vh;
     margin-top: -18vh;
     padding-left: 2vw;
+}
+
+@keyframes selected{
+    from{
+        color: black;
+        font-size: 3vmin;
+    }
+    to{
+        color: white;
+        font-size: 3.25vmin;
+    }
+}
+
+.vision-header nav a:hover{
+    animation-name: selected;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    /* margin-top: -1vh;
+    margin-bottom: 0.5vh; */
+    margin-right: 3.5vw;
 }
