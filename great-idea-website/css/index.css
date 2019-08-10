@@ -71,8 +71,8 @@ h3{
 }
 
 header{
-	margin-top: 10px;
-	margin-left: 2%;
+	margin-top: 2vh;
+	margin-left: 5vmin;
 }
 
 header img{
@@ -115,7 +115,7 @@ nav a:visited{
 	font-size: 4vmin;
 	display: inline-block;
 	vertical-align: bottom;
-	margin-left: -26vw;
+	margin-left: -25.25vw;
 	margin-right: 15vw;
 	background: white;
 	height: 8vh;

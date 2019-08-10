@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+header{
+    background-color: darkcyan;
+    position: fixed;
+    z-index: initial;
+    margin: 0;
+    margin-top: -5vmin;
+    width: 100vw;
+}
+
+header img{
+    margin-right: 0;
+}
+
+nav a{
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+}
+
+nav a:visited{
+    color: black;
+}
+
+.hero{
+    padding-top: 17vh;
+}
+
+.vision-header{
+    margin-top: auto;
+}
+
+.vision-content{
+    padding-top: 12vh;
+    text-align: center;
+}
+
+.vision-content p{
+    display: inline-block;
+    width: 40vw;
+    line-height: 2em;
+}
+
+.vision-content h1{
+    display: inline-block;
+    width: 40vw;
+    font-size: 4vmin;
+    text-decoration: underline;
+}
+
+.vision-content img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30vh;
+    margin-top: -18vh;
+}
