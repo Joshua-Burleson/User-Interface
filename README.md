@@ -1,19 +1,20 @@
 # Note from the Student
 
 I utilized a simple express server for this project, as a result if you would like to view the project the following are the paths.
+To initialize in bash from master directory simply: `node server.js`
 
 * ### Primary Goals
-    [/](localhost:4000/)
+    [/](http://localhost:4000/)
 
 * ### Stretch Goals 1 & 2
-    [/stretch](localhost:4000/stretch)
+    [/stretch](http://localhost:4000/stretch)
 
 * ### Stretch Goals 3 & 5
-    [/vision](localhost:4000/vision)
+    [/vision](http://localhost:4000/vision)
     * Alternatively, these can also be viewed by clicking the "Vision" anchor in the nav at the top of each page.
 
 * ### Stretch Goal 4
-    [/stretch-with-background](localhost:4000/stretch-with-background)
+    [/stretch-with-background](http://localhost:4000/stretch-with-background)
 
 # User Interface Project: Great Idea Web Page
 
