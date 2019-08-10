@@ -14,6 +14,10 @@ app.get('/stretch', (req, res) => {
 
 app.get('/vision', (req, res) => {
     res.sendFile(path.join(__dirname + '/great-idea-website/vision.html'));
+});
+
+app.get('/stretch-with-background', (req, res) => {
+    res.sendFile(path.join(__dirname + '/great-idea-website/stretch2.html'));
 })
 
 app.listen(4000, () => {

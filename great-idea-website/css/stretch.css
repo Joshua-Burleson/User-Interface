@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
+/* Stretch 1 */
 header{
     background-color: darkcyan;
     position: fixed;
@@ -13,10 +14,7 @@ header img{
     margin-right: 0;
 }
 
-/* .logo-holder{
-    background-image: url("../img/logo.png");
-} */
-
+/* Stretch 2 */
 nav a{
     color: black;
     font-family: 'Exo 2', sans-serif;
@@ -34,6 +32,7 @@ nav a:hover{
     padding-top: 17vh;
 }
 
+/* Stretch 3 */
 .vision-header{
     margin-top: auto;
 }
@@ -64,6 +63,7 @@ nav a:hover{
     padding-left: 2vw;
 }
 
+/* Stretch 5 */
 @keyframes selected{
     from{
         color: black;
@@ -79,7 +79,36 @@ nav a:hover{
     animation-name: selected;
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
-    /* margin-top: -1vh;
-    margin-bottom: 0.5vh; */
     margin-right: 3.5vw;
 }
+
+/* Stretch 4 */
+.stretch-header{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 80vw;
+}
+
+.hero-stretch{
+    background-image: url("../img/header-img.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 50vw;
+}
+
+.hero-stretch button{
+    vertical-align: -10vh;
+}
+
+.info-section-stretch{
+    background-image: url('../img/mid-page-accent.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 79vw 22vh;
+}
+
+.info-section-stretch .first-row{
+    margin-bottom: 32vh;
+}
+
