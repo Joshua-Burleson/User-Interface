@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 /*  */
-
+/* header */
 h3{
 	font-size: 3vmin;
 }
@@ -97,8 +97,8 @@ nav a:visited{
 	color: #7e7373a4;
 }
 
+/* Hero Card */
 .hero{
-	/* padding: 125px 300px; */
 	display: block;
 	padding: 10vmin;
 	padding-left: 18vmin;
@@ -132,11 +132,8 @@ nav a:visited{
 	width: 60vmin;
 }
 
-
-.hero img{
-	display: inline-block;
-}
-
+/* Info Section */
+	/* Playing around with before pseudo-class */
 .info-section:before{
 	display: block;
 	content:"";
@@ -176,6 +173,7 @@ nav a:visited{
 	width: 25vw;
 }
 
+/* Footer */
 footer{
 	display: block;
 	margin: 5vh 10vw 0vh;

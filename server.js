@@ -18,7 +18,7 @@ app.get('/vision', (req, res) => {
 
 app.get('/stretch-with-background', (req, res) => {
     res.sendFile(path.join(__dirname + '/great-idea-website/stretch2.html'));
-})
+});
 
 app.listen(4000, () => {
     console.log('Listening');
