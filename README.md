@@ -5,16 +5,28 @@ To initialize in bash from master directory simply: `node server.js`
 
 * ### Primary Goals
     [/](http://localhost:4000/)
+    * #### Files
+        * great-idea-website/index.html
+        * great-idea-website/css/index.css
 
 * ### Stretch Goals 1 & 2
     [/stretch](http://localhost:4000/stretch)
+    * #### Files
+        * great-idea-website/stretch1.html
+        * great-idea-website/css/stretch.css
 
 * ### Stretch Goals 3 & 5
     [/vision](http://localhost:4000/vision)
     * Alternatively, these can also be viewed by clicking the "Vision" anchor in the nav at the top of each page.
+    * #### Files
+        * vision.html
+        * great-idea-website/css/stretch.css
 
 * ### Stretch Goal 4
     [/stretch-with-background](http://localhost:4000/stretch-with-background)
+    * #### Files
+        * great-idea-website/stretch2.html
+        * great-idea-website/css/stretch.css
 
 # User Interface Project: Great Idea Web Page
 

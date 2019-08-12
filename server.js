@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/stretch', (req, res) => {
-    res.sendFile(path.join(__dirname + '/stretch1.html'));
+    res.sendFile(path.join(__dirname + '/great-idea-website/stretch1.html'));
 });
 
 app.get('/vision', (req, res) => {
